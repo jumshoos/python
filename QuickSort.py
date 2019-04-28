@@ -1,7 +1,7 @@
 import random
 
 
-def quick_srt(lst):
+def quick_Sort(lst):
     print(lst)
 
     def leftp(p, l, r):
@@ -23,10 +23,10 @@ def quick_srt(lst):
     leftp(0, 0, len(lst)-1)
     return lst
 
-
+# creating test data
 list1 = []
 for _ in range(10):
     list1.append(random.randrange(1, 100))
 
 
-print(quick_srt(list1))
+print(quick_Sort(list1))
